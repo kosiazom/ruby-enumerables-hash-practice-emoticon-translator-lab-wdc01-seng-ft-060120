@@ -6,7 +6,7 @@ def load_library (file_path)
  emoj_icon.each do |key, value|
  
     if !emotions_hash[key]
-      emotions_hash[key] = { :english => value[0], :japanese => value[1], }
+      emotions_hash[key] = { :english => value[0], :japanese => value[1]}
     end
   end
   emotions_hash
